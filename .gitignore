@@ -1,0 +1,33 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/
+
+# Deep Learning Weights & Models (>100MB denied by GitHub)
+*.pth
+*.pt
+*.bin
+*.onnx
+*.zip
+**/weights/
+**/weights/**
+
+# Temporary Outputs & Logs
+**/out/
+**/out/**
+*.log
+temp_*
+*.tmp
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
